@@ -104,7 +104,7 @@ function MovieCard({ movie }: MovieCardProps) {
             right={0}
             left={0}
             display='flex'
-            justifyContent='flex-end'
+            justifyContent='flex-start'
             padding='16px'
           >
             <Box

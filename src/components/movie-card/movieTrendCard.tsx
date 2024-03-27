@@ -14,8 +14,6 @@ interface MovieTrendCardProps {
 function MovieTrendCard({ movie }: MovieTrendCardProps) {
   const { dispatch } = useContext(MovieContext);
   const handleToggleBookmark = (id: string) => {
-    console.log("dis", dispatch, "\n id", id);
-
     dispatch({ type: "TOGGLED BOOKMARK", id });
   };
 
@@ -125,7 +123,7 @@ function MovieTrendCard({ movie }: MovieTrendCardProps) {
             right={0}
             left={0}
             display='flex'
-            justifyContent='flex-end'
+            justifyContent='flex-start'
             padding='16px'
           >
             <Box

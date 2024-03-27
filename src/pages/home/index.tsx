@@ -58,7 +58,7 @@ function Home() {
         </Box>
         <Box py={2} px={4}>
           {search === '' ? (
-            <Box width='100%' height='1000px' sx={{overflow:'auto'}}>
+            <Box width='100%' height='41rem' sx={{overflow:'auto'}}>
 
               <Box width='100%' >
                 <Typography variant="h5" component='h1' fontWeight={400} my={6}>Trending</Typography>

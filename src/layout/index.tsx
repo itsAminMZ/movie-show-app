@@ -21,12 +21,14 @@ function layout({ children }: LayoutProps) {
           padding: 3,
           gap: 3,
           overflowY: "hidden",  
-          height: "100vh",
+          height: "100%",
         }}
       >
         <Sidebar/>
         <Box sx={{width: '100%' , overflowY:'hidden'}}>{children}</Box>
       </Box>
+      
+      
     </>
   );
 }

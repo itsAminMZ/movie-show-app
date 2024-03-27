@@ -1,4 +1,11 @@
-Movie project
+# Movie project
+
+This app displays a list of movies. the following features are available:
+     🔎  Search for movies
+     📌  Bookmarking the movie
+     🔄  Navigate between different pages of the app
+
+
 
 
 # Getting Started with Create React App

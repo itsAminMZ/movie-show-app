@@ -1,4 +1,4 @@
-# Movie project
+# Movie show app
 
 This app displays a list of movies using `TypeScript`  `React`  `Material UI`
 

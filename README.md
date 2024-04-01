@@ -1,9 +1,12 @@
 # Movie project
 
-This app displays a list of movies. the following features are available:
-     🔎  Search for movies
-     📌  Bookmarking the movie
+This app displays a list of movies using `TypeScript`  `React`  `Material UI`
+
+the following features are available: .\
+     🔎  Search for movies.\
+     📌  Bookmarking the movie.\
      🔄  Navigate between different pages of the app
+     
 
 
 
